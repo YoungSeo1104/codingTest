@@ -1,4 +1,5 @@
 //출생년도 계산
+//keyPoint - getFullYear();
 
 let today = new Date();
 let year = today.getFullYear();

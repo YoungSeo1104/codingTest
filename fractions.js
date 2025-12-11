@@ -1,4 +1,6 @@
 //Addition of fractions (분수의 덧셈)
+//keyPoint - gcd(최대공약수);
+//알고리즘에서 많이 쓰인다고 하는데 gcd를 다음에 활용할 일이 있으려나..?
 
 //첫 번째 분수의 분자와 분모를 뜻하는 numer1, denom1,
 // 두 번째 분수의 분자와 분모를 뜻하는 numer2, denom2가 매개변수로 주어집니다.
@@ -8,12 +10,9 @@
 //입출력 예 #2 - 9 / 2 + 1 / 3 = 29 / 6입니다. 따라서 [29, 6]을 return 합니다.
 
 //type (x: number, y: number, z: number, q: number) => number;
-const Solution = (num1, denom1, num2, denom2) => {
-  let denominator = 1; //분모
-  let numerator = 1; //분자
-
-  denominator = denom1 * denom2;
-  numerator = num1 * denom2 + num2 * denom1;
+const Solution = (numer1, denom1, numer2, denom2) => {
+  let denominator = denom1 * denom2; //분모
+  let numerator = numer1 * denom2 + numer2 * denom1; //분자
 
   // 최대공약수
   const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));

@@ -11,7 +11,7 @@
 //입출력 예 #2 - 9 / 2 + 1 / 3 = 29 / 6입니다. 따라서 [29, 6]을 return 합니다.
 
 //type (x: number, y: number, z: number, q: number) => number;
-const Solution = (numer1, denom1, numer2, denom2) => {
+const solution = (numer1, denom1, numer2, denom2) => {
   let denominator = denom1 * denom2; //분모
   let numerator = numer1 * denom2 + numer2 * denom1; //분자
 
@@ -22,6 +22,6 @@ const Solution = (numer1, denom1, numer2, denom2) => {
   return [numerator / g, denominator / g];
 };
 
-console.log(Solution(1, 2, 3, 4));
-console.log(Solution(9, 2, 1, 3));
-console.log(Solution(3, 3, 3, 3));
+console.log(solution(1, 2, 3, 4));
+console.log(solution(9, 2, 1, 3));
+console.log(solution(3, 3, 3, 3));

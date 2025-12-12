@@ -1,6 +1,7 @@
-//Addition of fractions (분수의 덧셈)
 //keyPoint - gcd(최대공약수);
 //알고리즘에서 많이 쓰인다고 하는데 gcd를 다음에 활용할 일이 있으려나..?
+
+//Addition of fractions (분수의 덧셈)
 
 //첫 번째 분수의 분자와 분모를 뜻하는 numer1, denom1,
 // 두 번째 분수의 분자와 분모를 뜻하는 numer2, denom2가 매개변수로 주어집니다.

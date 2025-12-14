@@ -1,4 +1,4 @@
-//keyPoint - Date.prototype.getFullYear()
+//Date.prototype.getFullYear()
 
 //출생년도 계산
 

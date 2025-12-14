@@ -1,4 +1,4 @@
-//keyPoint - Math.pow(), ** 
+//Math.pow(), **
 // 거듭제곱
 
 //어떤 세균은 1시간에 두배만큼 증식한다고 합니다.
@@ -9,6 +9,7 @@
 
 //초기 세균 개수 = n, t시간 동안 두 배씩 증가 = 2를 t번 곱하기
 
+//(type x: number, y: number) => number;
 const solution = (n, t) => n * Math.pow(2, t);
 // const solution = (n, t) => n * 2 ** t;
 

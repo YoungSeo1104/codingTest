@@ -1,4 +1,4 @@
-//keyPoint - gcd(최대공약수);
+//gcd(최대공약수);
 //알고리즘에서 많이 쓰인다고 하는데 gcd를 다음에 활용할 일이 있으려나..?
 
 //Addition of fractions (분수의 덧셈)

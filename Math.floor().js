@@ -1,4 +1,4 @@
-//keyPoint - Math.floor(Number);
+//Math.floor(Number);
 //소수점 버림
 
 // 머쓱이네 양꼬치 가게는 10인분을 먹으면 음료수 하나를 서비스로 줍니다.
